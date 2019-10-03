@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project is to have a listing of all the books we've read in book club. We've been meeting and reading and drinking wine for six years and it's getting hard to keep track! And I couldn't find any other apps out there that did what I want them to do.
+
+Planned functionality:
+- organized list of all the books we've read and recommended over the years
+- easy to add new books by searching via the google books api
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+For the backend, it uses WPGraphQL-based WordPress plugin that's also currently under development [here](https://github.com/smallbellows/bookclub-wordpress-plugin).
 
 ## Available Scripts
 
@@ -40,29 +48,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

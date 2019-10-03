@@ -9,6 +9,10 @@ class BookSearch extends Component {
         const{ value }= event.target;
         this.setState({searchQuery: value});
     }
+
+    handleSubmit() {
+        
+    }
     render() {
         return (
             <div>
