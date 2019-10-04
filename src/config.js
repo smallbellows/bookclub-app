@@ -1,1 +1,1 @@
-export const endpoint = `http://plugin-dev.local/graphql`;
+export const endpoint = `https://saragiven.com/graphql`;
