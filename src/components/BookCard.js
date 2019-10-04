@@ -1,11 +1,14 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import './BookCard.css';
 
 const BookCard = book => {
     return (
         <div>
-            <h2>{book.title}</h2>
-            {book.bookAuthor && <h3>by {book.bookAuthor}</h3>}
+            <header>
+                <h2>{book.title}</h2>
+                {book.bookAuthor && <h3>by {book.bookAuthor}</h3>}
+            </header>
             {book.coverUrl && <img src={book.coverUrl} alt={book.title} />}
         </div>
     );
@@ -13,11 +16,8 @@ const BookCard = book => {
 
 BookCard.propTypes = {
     bookAuthor: PropTypes.string,
-    bookId: PropTypes.string,
+    bookId: PropTypes.number,
     coverUrl: PropTypes.string,
-    content: PropTypes.string,
-    title: PropTypes.string,
-    bookDate: PropTypes.string,
     termNames: PropTypes.arrayOf(PropTypes.string)
 };
 export default BookCard;

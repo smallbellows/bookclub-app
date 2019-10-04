@@ -12,9 +12,9 @@ function App() {
         <ApolloProvider client={client}>
             <div className="App">
                 <header className="App-header">
-                    <p>Welcome to Book Club</p>
-                    <BookList />
+                    <h1>Welcome to Book Club</h1>
                 </header>
+                <BookList />
             </div>
         </ApolloProvider>
     );
